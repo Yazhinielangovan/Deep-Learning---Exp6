@@ -124,6 +124,9 @@ print("{:15}{:5}\t{}".format("Word", "True", "Pred")); print("-"*30)
 for w,t,pd_ in zip(Xte[i], yte[i], p):
     print("{:15}{}\t{}".format(words[w-1], tags[t], tags[pd_]))
 
+
+
+
 **OUTPUT**
 
 **TRAINING LOSS, VALIDATION LOSS VS ITERATION PLOT**
